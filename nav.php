@@ -1,7 +1,8 @@
+<h2>柳比耶夫时间管理社区</h2>
+
 <?
 if(isset($_SESSION['user_name'])){
     ?>
-
     <a href="index.php">首页</a>
 
     <a href="profile.php?id=<?=$_SESSION['user_id']?>"><?=$_SESSION['user_name']?></a>

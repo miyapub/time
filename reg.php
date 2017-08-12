@@ -23,9 +23,20 @@ if($method==='POST'){
     //
 }
 ?>
-<form action="" method="post">
-    <p><?=$msg?></p>
-    <input type="text" name="name">
-    <input type="text" name="pass">
-    <input type="submit" value="注册">
-</form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p><?=$msg?></p>
+        <input type="text" name="name">
+        <input type="text" name="pass">
+        <input type="submit" value="注册">
+    </form>
+</body>
+</html>

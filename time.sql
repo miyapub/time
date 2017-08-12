@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 2017-07-11 11:04:29
+-- Generation Time: 2017-07-22 10:40:10
 -- 服务器版本： 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `time`
+-- Database: `timemanager`
 --
 
 -- --------------------------------------------------------
@@ -83,7 +83,9 @@ INSERT INTO `times` (`id`, `start`, `end`, `user_id`, `class_id`, `doing`, `addr
 (8, '2017-07-11 08:42:22', '0000-00-00 00:00:00', 3, 13, '你是个有前途的人嘛', '咖啡馆', '小丑鱼'),
 (9, '2017-07-11 08:45:43', '2017-07-11 08:46:00', 3, 13, '这样开公司最有效', '公司', ''),
 (10, '2017-07-11 08:50:48', '2017-07-11 08:51:06', 3, 2, '写代码', '公司', ''),
-(11, '2017-07-11 08:57:24', NULL, 3, 0, '', NULL, NULL);
+(11, '2017-07-11 08:57:24', NULL, 3, 0, '', NULL, NULL),
+(12, '2017-07-18 09:07:19', '2017-07-18 09:07:36', 3, 9, '开会', '公司', ''),
+(13, '2017-07-18 09:08:35', '2017-07-18 09:09:11', 3, 13, '奇葩', '', '');
 
 -- --------------------------------------------------------
 
@@ -143,7 +145,7 @@ ALTER TABLE `classes`
 -- 使用表AUTO_INCREMENT `times`
 --
 ALTER TABLE `times`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 --
 -- 使用表AUTO_INCREMENT `users`
 --
